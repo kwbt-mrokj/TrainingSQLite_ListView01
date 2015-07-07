@@ -28,6 +28,14 @@
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
         </activity>
+        <activity
+            android:name=".AwajiActivity"
+            android:label="@string/title_activity_awaji" >
+            <intent-filter>
+                <action android:name="Awaji" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
