@@ -28,6 +28,14 @@
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
         </activity>
+        <activity
+            android:name=".IsobeActivity"
+            android:label="@string/title_activity_isobe" >
+            <intent-filter>
+                <action android:name="Isobe"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
