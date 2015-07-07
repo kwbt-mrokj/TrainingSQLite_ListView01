@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TrainingSQLite_ListView01</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_addData">Add Data</string>
+    <string name="title_activity_data_registration">DataRegistrationActivity</string>
+    <string name="title_activity_d">dActivity</string>
+    <string name="title_activity_data_reg">DataRegActivity</string>
+</resources>
