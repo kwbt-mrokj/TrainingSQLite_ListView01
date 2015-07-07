@@ -11,19 +11,12 @@
             android:name=".TopActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="kato" />
+                <action android:name="Top" />
 
-                <category android:name="android.intent.category.default" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DataRegistrationActivity"
-            android:label="@string/title_activity_data_registration" >
-        </activity>
-        <activity
-            android:name=".dActivity"
-            android:label="@string/title_activity_d" >
-        </activity>
+
         <activity
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
@@ -31,7 +24,13 @@
         <activity
             android:name=".KatoActivity"
             android:label="@string/title_activity_kato" >
+
         </activity>
+        <intent-filter>
+            <action android:name="Kato" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
     </application>
 
 </manifest>
