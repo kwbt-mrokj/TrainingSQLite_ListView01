@@ -28,6 +28,15 @@
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
         </activity>
+        <activity
+            android:name=".OdagiriActivity"
+            android:label="@string/title_activity_odagiri" >
+            <intent-filter>
+                <action android:name="Odagiri" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
