@@ -16,18 +16,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DataRegistrationActivity"
-            android:label="@string/title_activity_data_registration" >
-        </activity>
-        <activity
-            android:name=".dActivity"
-            android:label="@string/title_activity_d" >
-        </activity>
+
         <activity
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
         </activity>
+        <intent-filter>
+            <action android:name="DataReg" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".ShimazawaActivity"
+            android:label="@string/title_activity_shimazawa" >
+            <intent-filter>
+                <action android:name="Shimazawa" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
