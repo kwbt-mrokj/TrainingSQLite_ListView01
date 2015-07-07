@@ -16,17 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DataRegistrationActivity"
-            android:label="@string/title_activity_data_registration" >
-        </activity>
-        <activity
-            android:name=".dActivity"
-            android:label="@string/title_activity_d" >
-        </activity>
+
         <activity
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
+        </activity>
+        <activity
+            android:name=".SunakoActivity"
+            android:label="@string/title_activity_sunako">
+
+        <intent-filter>
+            <action android:name="Sunako" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
         </activity>
     </application>
 
