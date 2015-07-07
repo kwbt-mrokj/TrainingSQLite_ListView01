@@ -54,24 +54,6 @@ public class TopActivity extends Activity {
         setContentView(R.layout.activity_top);
     }
 
-    private long insertData(String[] data) throws IOException {
-
-        String time = Calendar.getInstance().getTime().toString();
-
-        ContentValues values = new ContentValues();
-        values.put(DBHelper.REG_NAME, data[0]);
-        values.put(DBHelper.REG_CONTENT, data[1]);
-        values.put(DBHelper.REG_DATE, time);
-
-        long result = -1;
-
-        if (db != null) {
-            result = db.insert(DBHelper.TABLE_NAME, null, values);
-
-        }
-        return result;
-    }
-
     @Override
     public void onStart() {
         super.onStart();
@@ -98,7 +80,8 @@ public class TopActivity extends Activity {
                 "Kodate",
                 "Odagiri",
                 "Sunako",
-                "Wada"
+                "Wada",
+                "Kawabata"
         };
 
         // アダプターの生成

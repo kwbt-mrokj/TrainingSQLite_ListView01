@@ -17,16 +17,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DataRegistrationActivity"
-            android:label="@string/title_activity_data_registration" >
-        </activity>
-        <activity
-            android:name=".dActivity"
-            android:label="@string/title_activity_d" >
-        </activity>
-        <activity
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
+        </activity>
+        <activity
+            android:name=".KawabataActivity"
+            android:label="@string/title_activity_kawabata" >
+            <intent-filter>
+                <action android:name="Kawabata" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 
