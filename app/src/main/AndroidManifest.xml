@@ -11,22 +11,18 @@
             android:name=".TopActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="Nagahora" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".DataRegistrationActivity"
-            android:label="@string/title_activity_data_registration" >
-        </activity>
-        <activity
-            android:name=".dActivity"
-            android:label="@string/title_activity_d" >
         </activity>
         <activity
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
+        </activity>
+        <activity
+            android:name=".NagahoraActivity"
+            android:label="@string/title_activity_nagahora" >
         </activity>
     </application>
 
