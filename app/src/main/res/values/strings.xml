@@ -7,4 +7,5 @@
     <string name="title_activity_data_registration">DataRegistrationActivity</string>
     <string name="title_activity_d">dActivity</string>
     <string name="title_activity_data_reg">DataRegActivity</string>
+    <string name="title_activity_kawabata">KawabataActivity</string>
 </resources>
