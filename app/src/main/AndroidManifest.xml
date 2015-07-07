@@ -28,6 +28,16 @@
             android:name=".DataRegActivity"
             android:label="@string/title_activity_data_reg" >
         </activity>
+        <activity
+            android:name=".GomibuchiActivity"
+            android:label="@string/title_activity_gomibuchi" >
+
+            <intent-filter>
+                <action android:name="Gomibuchi"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
